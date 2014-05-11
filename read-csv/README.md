@@ -6,6 +6,7 @@ A Clojure library designed to ... well, that part is up to you.
 In REPL:
 1) (use 'incanter.core
 	   'incanter.io)
+	   
 2) (read-dataset "resources/small-sample.csv") will read dataset from csv file.
 
 3) (read-dataset "resources/small-sample-header.csv" :header true) will remove header.
